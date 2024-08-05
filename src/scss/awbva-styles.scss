@@ -3,9 +3,9 @@
     .wcbvp-form-variation {
       .wcbvp-quantity-field {
         display: grid;
-        grid-template-columns: 45px 1fr 45px;
+        grid-template-columns: 45px minmax(45px, 1fr) 45px;
 
-        input[name="input_quantity"]{
+        input[name="input_quantity"] {
           &::-webkit-inner-spin-button,
           &::-webkit-outer-spin-button {
             -webkit-appearance: none;
