@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Art\\WcBulkVariationsAddons\\": "classes/"
+            "Art\\WoocommerceBulkVariationsAddons\\": "classes/"
         }
     },
     "require-dev": {

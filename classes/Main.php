@@ -1,6 +1,6 @@
 <?php
 
-namespace Art\AWBVA;
+namespace Art\WoocommerceBulkVariationsAddons;
 
 class Main {
 
