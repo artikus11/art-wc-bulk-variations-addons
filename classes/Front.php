@@ -6,11 +6,11 @@ class Front {
 
 	public function init_hooks(): void {
 
-		add_filter( 'wc_bulk_variations_qty_input_html', [ $this, 'quantity_buttons' ], 10, 3 );
+		add_filter( 'wc_bulk_variations_qty_input_html', [ $this, 'quantity_buttons' ], 10, 1 );
 	}
 
 
-	public function quantity_buttons( $input, $attrs, $variation ): string {
+	public function quantity_buttons( $input ): string {
 
 		if ( ! wp_is_mobile() ) {
 			return $input;

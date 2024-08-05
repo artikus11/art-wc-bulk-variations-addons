@@ -45,5 +45,4 @@ class Enqueue {
 		wp_enqueue_script( 'awbva-scripts' );
 		wp_enqueue_style( 'awbva-styles' );
 	}
-
 }

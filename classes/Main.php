@@ -86,5 +86,4 @@ class Main {
 
 		return $this->path_assets;
 	}
-
 }
