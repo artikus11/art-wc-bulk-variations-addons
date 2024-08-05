@@ -43,6 +43,8 @@ class Main {
 
 		( new Enqueue( $this ) )->init_hooks();
 		( new Front() )->init_hooks();
+
+		$this->init_hooks();
 	}
 
 
