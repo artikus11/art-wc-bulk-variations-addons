@@ -12,8 +12,8 @@ class Front {
 
 	public function quantity_buttons( $input, $attrs, $variation ): string {
 
-		$button_minus = '<input type="button" value="-" class="minus">';
-		$button_plus  = '<input type="button" value="+" class="plus">';
+		$button_minus = '<button type="button" class="minus">-</button>';
+		$button_plus  = '<button type="button" class="plus">+</button>';
 
 		return $button_minus . $input . $button_plus;
 	}
