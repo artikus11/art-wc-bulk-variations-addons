@@ -5,7 +5,7 @@
  * Text Domain: art-wc-bulk-variations-addons
  * Domain Path: /languages
  * Description: Дополнение к плагину WooCommerce Bulk Variations. Добавлется ± для инпутов на странице товара
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Artem Abramovich
  * Author URI: https://wpruse.ru/
  * License: GPL-2.0+
@@ -20,7 +20,7 @@
 
 const AWBVA_PLUGIN_DIR       = __DIR__;
 const AWBVA_PLUGIN_AFILE     = __FILE__;
-const AWBVA_PLUGIN_VER       = '1.0.0';
+const AWBVA_PLUGIN_VER       = '1.0.1';
 const AWBVA_PLUGIN_SLUG      = 'art-wc-bulk-variations-addons';
 const AWBVA_PLUGIN_NAME = 'Art Woocommerce Bulk Variations Addons';
 const AWBVA_PLUGIN_TEPMLATES = 'templates';
