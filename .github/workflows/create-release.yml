@@ -16,7 +16,7 @@ jobs:
       - name: Webpack Build
         run: |
           npm install
-          npm run build:unminification
+          npm run build
 
       - name: Composer Autoloader
         run: |
