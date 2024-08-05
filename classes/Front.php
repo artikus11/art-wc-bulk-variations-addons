@@ -12,6 +12,10 @@ class Front {
 
 	public function quantity_buttons( $input, $attrs, $variation ): string {
 
+		if ( ! wp_is_mobile() ) {
+			return $input;
+		}
+
 		$button_minus = '<button type="button" class="minus">-</button>';
 		$button_plus  = '<button type="button" class="plus">+</button>';
 
