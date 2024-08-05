@@ -32,12 +32,14 @@ class Enqueue {
 
 		wp_enqueue_style( 'awbva-styles' );
 		wp_register_script(
-			'afb-scripts',
-			AFB_PLUGIN_URI . 'assets/js/afb-scripts' . $this->suffix . '.js',
-			[ 'jquery' ],
-			AFB_PLUGIN_VER,
+			'awbva-scripts',
+			$this->main->get_url_assets() . 'js/awbva-scripts' . $this->main->get_suffix() . '.js',
+			[ Frontend_Scripts::SCRIPT_HANDLE ],
+			AWBVA_PLUGIN_VER,
 			true
-		);*/
+		);
+
+		wp_enqueue_script( 'awbva-scripts' );
 	}
 
 }
