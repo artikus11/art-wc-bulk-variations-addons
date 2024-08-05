@@ -1,0 +1,18 @@
+.wc-bulk-variations-table {
+  .wcbvp-row {
+    .wcbvp-form-variation {
+      .wcbvp-quantity-field {
+        display: grid;
+        grid-template-columns: 45px 1fr 45px;
+
+        input[name="input_quantity"]{
+          &::-webkit-inner-spin-button,
+          &::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0
+          }
+        }
+      }
+    }
+  }
+}
