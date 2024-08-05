@@ -13,6 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Webpack Build
+        run: |
+          npm install
+          npm run build:unminification
+
       - name: Composer Autoloader
         run: |
           composer install --no-dev --prefer-dist --no-progress 
