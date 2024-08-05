@@ -23,6 +23,7 @@ const AWBVA_PLUGIN_DIR       = __DIR__;
 const AWBVA_PLUGIN_AFILE     = __FILE__;
 const AWBVA_PLUGIN_VER       = '1.0.0';
 const AWBVA_PLUGIN_SLUG      = 'art-wc-bulk-variations-addons';
+const AWBVA_PLUGIN_NAME = 'Art Woocommerce Bulk Variations Addons';
 const AWBVA_PLUGIN_TEPMLATES = 'templates';
 
 define( 'AWBVA_PLUGIN_URI', untrailingslashit( plugin_dir_url( AWBVA_PLUGIN_AFILE ) ) );

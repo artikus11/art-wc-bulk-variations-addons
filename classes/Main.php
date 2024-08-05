@@ -39,6 +39,8 @@ class Main {
 
 	public function init_all(): void {
 
+		( new Requirements( $this ) )->init();
+
 		( new Enqueue( $this ) )->init_hooks();
 		( new Front() )->init_hooks();
 	}
