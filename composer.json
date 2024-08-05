@@ -1,0 +1,31 @@
+{
+    "name": "art/wc-bulk-variations-addons",
+    "license": "GPL-2.0",
+    "homepage": "https://github.com/artikus11/art-wc-bulk-variations-addons",
+    "authors": [
+        {
+            "name": "Artem Abramovich",
+            "homepage": "https://wpruse.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Art\\WcBulkVariationsAddons\\": "classes/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7",
+        "wp-coding-standards/wpcs": "^3.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "phpcompatibility/phpcompatibility-wp": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs --standard=./phpcs.xml",
+        "phpcbf": "phpcbf --standard=./phpcs.xml"
+    }
+}

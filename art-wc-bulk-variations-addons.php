@@ -29,3 +29,5 @@ define( 'AWBVA_PLUGIN_URI', untrailingslashit( plugin_dir_url( ACL_PLUGIN_AFILE 
 define( 'AWBVA_PLUGIN_FILE', plugin_basename( __FILE__ ) );
 
 require AWBVA_PLUGIN_DIR . '/vendor/autoload.php';
+
+( new \Art\AWBVA\Main() )->init();
